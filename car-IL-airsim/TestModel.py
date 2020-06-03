@@ -30,7 +30,7 @@ if (MODEL_PATH == None):
 print('Using model {0} for testing.'.format(MODEL_PATH))
 
 model = load_model(MODEL_PATH)
-
+# jsnmdk
 client = CarClient()
 client.confirmConnection()
 client.enableApiControl(True)
